@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'impressive';
+	src:url('../fonts/impressive.eot?-2w7ajc');
+	src:url('../fonts/impressive.eot?#iefix-2w7ajc') format('embedded-opentype'),
+		url('../fonts/impressive.woff?-2w7ajc') format('woff'),
+		url('../fonts/impressive.ttf?-2w7ajc') format('truetype'),
+		url('../fonts/impressive.svg?-2w7ajc#impressive') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="impv-"], [class*=" impv-"] {
+	font-family: 'impressive';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.impv-ohtani:before {
+	content: "\e600";
+}
+.impv-kotani:before {
+	content: "\e601";
+}
+.impv-kashiwagi:before {
+	content: "\e602";
+}
+.impv-t_endo:before {
+	content: "\e603";
+}
+.impv-fujita:before {
+	content: "\e604";
+}
+.impv-iida:before {
+	content: "\e605";
+}
+.impv-takahashi:before {
+	content: "\e606";
+}
+.impv-kita:before {
+	content: "\e607";
+}
+.impv-nakano:before {
+	content: "\e608";
+}
